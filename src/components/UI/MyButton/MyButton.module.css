@@ -1,0 +1,27 @@
+.myBtn{
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 5px 15px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #1976d2;
+  cursor: pointer;
+}
+.myBtn:hover{
+  text-decoration: none;
+  background-color: #f8fbfe;
+  /* border: 1px solid #91bff8; */
+  box-shadow: 0 0 15px #91bff8;
+}
+
+@media(max-width:410px){
+  .myBtn{
+    font-size: 0.75rem;
+  }
+}
+@media(max-height:420px){
+  .myBtn{
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,18 @@
+.navbar_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5% ;
+  height: 6%;
+  background-color: #1976d2;
+}
+.logo{
+  color: #fff;
+}
+
+
+@media(max-height:420px){
+  .navbar_container{
+    height: 9%;
+  }
+}
